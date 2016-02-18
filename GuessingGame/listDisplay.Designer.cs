@@ -30,7 +30,7 @@
         {
             this.guessLabel = new System.Windows.Forms.Label();
             this.orderLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.timesAttemptedLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -56,16 +56,16 @@
             this.orderLabel.TabIndex = 1;
             this.orderLabel.Text = "Your Guesses in order:";
             // 
-            // label1
+            // timesAttemptedLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Imprint MT Shadow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(28, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 23);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Guesses made:";
+            this.timesAttemptedLabel.AutoSize = true;
+            this.timesAttemptedLabel.Font = new System.Drawing.Font("Imprint MT Shadow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timesAttemptedLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.timesAttemptedLabel.Location = new System.Drawing.Point(28, 44);
+            this.timesAttemptedLabel.Name = "timesAttemptedLabel";
+            this.timesAttemptedLabel.Size = new System.Drawing.Size(130, 23);
+            this.timesAttemptedLabel.TabIndex = 2;
+            this.timesAttemptedLabel.Text = "Guesses made:";
             // 
             // label2
             // 
@@ -84,7 +84,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.timesAttemptedLabel);
             this.Controls.Add(this.orderLabel);
             this.Controls.Add(this.guessLabel);
             this.Name = "listDisplayScreen";
@@ -98,7 +98,7 @@
 
         private System.Windows.Forms.Label guessLabel;
         private System.Windows.Forms.Label orderLabel;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label timesAttemptedLabel;
         private System.Windows.Forms.Label label2;
     }
 }
